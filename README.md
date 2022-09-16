@@ -1,4 +1,4 @@
-# Tornado Cash Privacy Solution [![build status](https://github.com/tornadocash/tornado-core/actions/workflows/build.yml/badge.svg)](https://github.com/tornadocash/tornado-core/actions/workflows/build.yml) [![Coverage Status](https://coveralls.io/repos/github/tornadocash/tornado-core/badge.svg?branch=master)](https://coveralls.io/github/tornadocash/tornado-core?branch=master)
+# Tornado Cash Privacy Solution [![build status](https://github.com/tornado-repositories/tornado-core/actions/workflows/build.yml/badge.svg)](https://github.com/tornado-repositories/tornado-core/actions/workflows/build.yml) [![Coverage Status](https://coveralls.io/repos/github/tornadocash/tornado-core/badge.svg?branch=master)](https://coveralls.io/github/tornadocash/tornado-core?branch=master)
 
 Tornado Cash is a non-custodial Ethereum and ERC20 privacy solution based on zkSNARKs. It improves transaction privacy by breaking the on-chain link between the recipient and destination addresses. It uses a smart contract that accepts ETH deposits that can be withdrawn by a different address. Whenever ETH is withdrawn by the new address, there is no way to link the withdrawal to the deposit, ensuring complete privacy.
 
@@ -74,7 +74,7 @@ Use the command-line version. Works for Ganache, Kovan, and Mainnet:
 
 ### Kovan, Mainnet
 
-1. Please use https://github.com/tornadocash/tornado-cli
+1. Please use https://github.com/tornado-repositories/tornado-cli
    Reason: because tornado-core uses websnark `2041cfa5fa0b71cd5cca9022a4eeea4afe28c9f7` commit hash in order to work with local trusted setup. Tornado-cli uses `4c0af6a8b65aabea3c09f377f63c44e7a58afa6d` commit with production trusted setup of tornadoCash
 
 Example:
